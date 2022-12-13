@@ -8,8 +8,8 @@ function update(e){
   }
   
     
-  document.getElementById("title-imgss").addEventListener('mousemove',update)
-  document.getElementById("title-imgss").addEventListener('touchmove',update)
+  document.getElementById("title").addEventListener('mousemove',update)
+  document.getElementById("title").addEventListener('touchmove',update)
 
 /*
 function cursorChange(id){
