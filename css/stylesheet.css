@@ -1,0 +1,475 @@
+
+@font-face {
+    font-family: 'br_firmaregular';
+    src: url('br_firma_regular-webfont.woff2') format('woff2'),
+         url('br_firma_regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/* Flashlight Overlay 
+:root {
+    cursor: none;
+    --cursorX: 50vw;
+    --cursorY: 50vh;
+}
+  :root:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    pointer-events: none;
+    background: radial-gradient(
+      circle 20vmax at var(--cursorX) var(--cursorY),
+      rgba(0,0,0,0) 0%,
+      rgba(0,0,0,.5) 80%,
+      rgba(0,0,0,.95) 100%
+    )
+}
+*/
+
+/*  general site styles go here. */
+#navigation{
+    text-align: center;
+    background-color: #000000; 
+}
+#title{
+    padding: 2% 15% 5% 15%;
+    text-align: center;
+    background-color: #000000; 
+}
+.title-text{
+    position: relative; top: -1000px;
+}
+.title-img{
+    opacity: 0;
+
+
+   /* background-attachment: fixed; */
+}
+.title-img:hover{
+    opacity: 1;
+    transition: opacity 2s ease-out; /* It slowly shows the element as we place the mouse on the box and when the time reaches 2 seconds, it is fully visible. */  
+    -webkit-transition: opacity 2s ease-out;  
+    -moz-transition: opacity 2s ease-in-out;  
+    /*
+    box-shadow:
+    0 0 60px 30px #fff,  /* inner white */
+    0 0 100px 60px #f0f, /* middle magenta */
+    0 0 140px 90px #0ff; /* outer cyan 
+    */
+    /*box-shadow: 0px 0px 40px 20px rgba(255, 255, 255, 0.523);*/
+
+
+}
+.title-imgs{
+    opacity: 0;
+    background-size: "100% 80%";
+    background-repeat: "no-repeat";
+    position: relative; left: 20px;
+
+   /* background-attachment: fixed; */
+}
+.title-imgs:hover{
+    opacity: 1;
+    background-size: "100% 80%";
+    background-repeat: "no-repeat";
+    position: relative; left: 20px;
+    transition: opacity 2s ease-out; /* It slowly shows the element as we place the mouse on the box and when the time reaches 2 seconds, it is fully visible. */  
+    -webkit-transition: opacity 2s ease-out;  
+    -moz-transition: opacity 2s ease-in-out;  
+}
+.container {
+    position: relative;
+    text-align: center;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+/*
+.title-image{
+    background-image: url("file:///Users/danielaacosta/Desktop/GWC/images/hero-section-img.png");
+    background-size: "100% 80%";;
+    background-repeat: "no-repeat";
+    background-position: "center 100%";
+   /* background-attachment: fixed;
+}
+*/
+
+
+#title-stories-page{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #000000; 
+}
+
+/* controls navbar padding/spreading out */
+.container-fluid{
+    padding: 3% 7%;
+}
+/*
+.engraved{
+    background-color: #9d6839;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: rgba(245,245,245,0.5) 3px 5px 1px;
+}
+*/
+
+h1{
+    font-family: 'br_firmaregular';
+    font-weight: bold;
+    color: #ffffff;
+    font-size: 70px; /* 3rem = 3 times the root em size */
+    line-height:1.5;
+
+    padding: 0  0 10px 0;
+}
+
+h2{
+    color: #ffffff;
+    font-family: 'br_firmaregular';
+    font-size: 28px;
+    font-weight: bold;
+    padding: 0  0 10px 0;
+}
+
+h3{
+    color: #ffffff;
+    font-family: 'br_firmaregular';
+    font-weight: bold;
+    padding: 0  0 10px 0;
+    font-size: 24px;
+}
+
+h4{
+    color: #ffffff;
+    font-family: 'br_firmaregular';
+    padding: 0  0 10px 0;
+    font-size: 22px;
+}
+
+p{
+    font-family: 'br_firmaregular';
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Navigation Bar */
+.icon-custom{
+    color:#ffffff;
+}
+.icon-custom:hover {
+    -webkit-animation-name: wiggle;
+    -ms-animation-name: wiggle;
+    -ms-animation-duration: 1000ms;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-iteration-count: 1;
+    -ms-animation-iteration-count: 1;
+    -webkit-animation-timing-function: ease-in-out;
+    -ms-animation-timing-function: ease-in-out;
+}
+  
+@-webkit-keyframes wiggle {
+0% {-webkit-transform: rotate(10deg);}
+25% {-webkit-transform: rotate(-10deg);}
+50% {-webkit-transform: rotate(20deg);}
+75% {-webkit-transform: rotate(-5deg);}
+100% {-webkit-transform: rotate(0deg);}
+}
+
+@-ms-keyframes wiggle {
+0% {-ms-transform: rotate(1deg);}
+25% {-ms-transform: rotate(-1deg);}
+50% {-ms-transform: rotate(1.5deg);}
+75% {-ms-transform: rotate(-5deg);}
+100% {-ms-transform: rotate(0deg);}
+}
+
+@keyframes wiggle {
+0% {transform: rotate(10deg);}
+25% {transform: rotate(-10deg);}
+50% {transform: rotate(20deg);}
+75% {transform: rotate(-5deg);}
+100% {transform: rotate(0deg);}
+}
+  
+.navbar .navbar-nav .nav-link {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-family: 'br_firmaregular';
+}
+.navbar{
+    padding: 2rem 0 3rem 0;
+}
+.nav-item{
+    padding: 0 20px;
+    text-align: center;
+}
+.nav-link:hover{
+    background-color:#e5c4fe;
+    border-radius: 5px;
+}
+
+
+
+
+/* Download Buttons */
+.download-button{
+    margin: 5% 3% 5%;
+}
+
+.color-add{
+    background-color: #ffffff;
+}
+
+/* Floating contact/social Icons */
+.icons{
+    top: 25%;
+    right: 0px;
+    transform: translateY(-50%);
+    position: fixed;
+    z-index: 100;
+}
+
+.icons ul{
+    padding:initial;
+}
+
+.icons ul li{
+    height: 50px;
+    width: 50px;
+    list-style-type: none;
+    padding-top: 12px;
+    margin-top: 5px;
+    border-radius: 2.5px;
+    color:#000000;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    background-color: #ffffff;
+
+}
+
+.icons ul li:hover{
+    color:#e5c4fe;
+}
+
+/* Title Features 
+
+
+.tile{ 
+    position: relative; top: 100px;
+    padding: 0 10px 0px 10px;
+    border-radius: 30px;
+    transform: rotate(45deg);
+    position:absolute;
+    z-index:0;
+    width: 40%;
+    position: relative; left: 20px;
+   
+    
+}
+
+.img-center{
+    text-align: center;
+}
+*/
+
+
+/* Projects Section */
+ #projects{
+    /* padding: 100px; to take up more of screen*/
+    padding: 7% 15%;
+    text-align: justify;
+    background-color: black; 
+ }
+ .projects-column{
+    padding: 3% 2%;
+ }
+ .card{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    background-color:#ffffff;
+}
+.card-title{
+    color:#000000;
+}
+.ada-img{
+    border-radius: 50%;
+    width: 60%;
+    height: 100%;
+}
+
+.card-text-home{
+    color:#000000;
+}   
+
+/* extras 
+.card-header{
+    background-color:#FFF5EF;
+}
+.card-body{
+    background-color: #FFF5EF;
+}
+.card-img-top{
+    background-color: #FFF5EF;
+}
+*/
+
+.btn{
+    border-radius:5px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: .5em 1.5em;
+}
+.btn:hover {
+  background-color: #000000;
+  color: #e5c4fe;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.navbar-toggler{
+    background-color:#ffffff;
+    color:#000000;
+
+}
+.navbar-toggler:hover{
+    background-color:#e5c4fe;
+
+}
+
+#Ada{
+    background-color: #000000;
+    padding: 7% 15%;
+    text-align: center;
+}
+
+/* Story Cards Section*/
+#story-cards{
+    padding: 7% 15%;
+    text-align: left;
+    background-color: #ffffff; 
+}
+.card{
+    padding: 1.5em .5em .5em;
+    border-radius: 2em;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    background-color:#ffffff;
+    
+}
+.card-text-story{
+    text-align: left;
+    
+}
+.card-text-story-center{ 
+    text-align: center;
+    
+}
+
+.card-footer{
+    background-color: #ECD9CE; 
+}
+.img-fluid{
+    border-radius: 200px;
+    width: 225px;
+    height: 225px;
+    
+}
+
+
+
+/* Footer Section*/
+#footer{
+    padding: 0% 15% 3% 15%;
+    text-align: center;
+    background-color: black;
+}
+.vase-logo{
+    width: 20px;
+    padding: 0 0 5px 0;
+}
+.social-icons{
+    margin: 20px 5px;
+}
+.link-secondary{
+    font-family: 'Tahoma';
+    color:#ffffff;
+    font-weight: bold;
+    font-size: 18px;
+}
+.link-secondary2{
+    font-family: 'Tahoma';
+    color:#ffffff;
+    font-size: 18px;
+}
+.extra-space{
+    padding: 0 10px 0 10px;
+}
+.footer-page-links{
+    font-family: 'Tahoma';
+    color:#ffffff;
+    padding:8px 8px 8px 8px;
+    font-size: 18px;
+}
+.p-footer{
+    padding:15px;
+    color: #ffffff;
+}
+.footer-page-links:hover{
+    background-color:#e5c4fe;
+    color: #ffffff;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.link-secondary:hover{
+    color:#e5c4fe;
+    text-decoration: none;
+}
+.link-secondary2:hover{
+    color:#ffffff;
+    text-decoration: none;
+}
+
+
+@keyframes shake {
+    0% { transform: translate(1px, 1px) rotate(0deg); }
+    10% { transform: translate(-1px, -2px) rotate(-1deg); }
+    20% { transform: translate(-3px, 0px) rotate(1deg); }
+    30% { transform: translate(3px, 2px) rotate(0deg); }
+    40% { transform: translate(1px, -1px) rotate(1deg); }
+    50% { transform: translate(-1px, 2px) rotate(-1deg); }
+    60% { transform: translate(-3px, 1px) rotate(0deg); }
+    70% { transform: translate(3px, 1px) rotate(-1deg); }
+    80% { transform: translate(-1px, -1px) rotate(1deg); }
+    90% { transform: translate(1px, 2px) rotate(0deg); }
+    100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+
+
+ /*Media Query Section -convention is to have all the media queries at the bottom of the page */
+
+ @media (max-width: 1028px){  /* Media Queries allow for webpage to have different looks based on certain conditions */
+
+    #title{
+        text-align: center;
+    }
+}
+
+
+@media (max-width: 600px){  
+    .card{
+        text-align: center;
+    }
+}
+
+
+
+
