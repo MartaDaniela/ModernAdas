@@ -1,4 +1,6 @@
-
+.color-change1{
+    background-color: #b89677;
+}
 .title-text{
     text-align: center;
     
@@ -31,6 +33,7 @@
 
 /*  general site styles*/
 
+
 #title{
     text-align: center;
     padding: 4% 15% 7% 15%;
@@ -42,50 +45,17 @@
     color:#4d2808;
     text-align: left;
 }
-.title-img{
-    opacity: 1;
-
-
-   /* background-attachment: fixed; */
+.large-font{
+    font-size: 40px;
+    color:#4d2808;
+    text-align: center;
 }
-.title-img:hover{
-    opacity: 1;
-    transition: opacity 2s ease-out; /* It slowly shows the element as we place the mouse on the box and when the time reaches 2 seconds, it is fully visible. */  
-    -webkit-transition: opacity 2s ease-out;  
-    -moz-transition: opacity 2s ease-in-out;  
-    /*
-    box-shadow:
-    0 0 60px 30px #fff,  /* inner white */
-    0 0 100px 60px #f0f, /* middle magenta */
-    0 0 140px 90px #0ff; /* outer cyan 
-    */
-    /*box-shadow: 0px 0px 40px 20px rgba(255, 255, 255, 0.523);*/
-
-
-}
-#title-imgss{
-    border-radius: 30px;
-
-
+.large-font-left{
+    font-size: 40px;
+    color:#4d2808;
+    text-align: left;
 }
 
-.title-imgs{
-    opacity: 0;
-    background-size: "100% 80%";
-    background-repeat: "no-repeat";
-    position: relative; left: 20px;
-
-   /* background-attachment: fixed; */
-}
-.title-imgs:hover{
-    opacity: 1;
-    background-size: "100% 80%";
-    background-repeat: "no-repeat";
-    position: relative; left: 20px;
-    transition: opacity 2s ease-out; /* It slowly shows the element as we place the mouse on the box and when the time reaches 2 seconds, it is fully visible. */  
-    -webkit-transition: opacity 2s ease-out;  
-    -moz-transition: opacity 2s ease-in-out;  
-}
 .container {
     position: relative;
     text-align: center;
@@ -191,17 +161,18 @@ p{
     color: #4d2808;
     border-radius: 5px;
 }
-.navbar-toggler{
-    background-color:#ffffff;
-    color:#4d2808;
 
-}
-.navbar-toggler:hover{
-    background-color:#e2dcc8b1;
-
-}
 .navbar{
     position: relative; top: -40px;
+}
+.navbar-toggler{
+    background-color:#4d2808;
+
+}
+
+.navbar-toggler:hover{
+    box-shadow:;
+
 }
 
 
@@ -323,27 +294,14 @@ p{
  .projects-column{
     padding: 3% 2%;
  }
- .card{
-    padding: 1.5em .5em .5em;
-    border-radius: 5px;
-    box-shadow: 0 5px 10px #5e3613;
-    background-color: #e2dcc8b1;
-}
 
-.card-title{
-    color:#4d2808;
-    
-}
 .ada-img{
     border-radius: 50%;
     width: 60%;
     height: 100%;
 }
 
-.card-text-home{
-    color:#5e3613; 
-    
-}   
+
 
 /* extras 
 .card-header{
@@ -380,6 +338,11 @@ p{
 }
 
 /* Story Cards Section*/
+#story-title{
+    padding: 3% 15% 3% 15%;
+    text-align: center;
+    background-color:#e2dcc8;
+}
 #story-cards{
     padding: 3% 15% 7% 15%;
     text-align: left;
@@ -389,6 +352,7 @@ p{
 .card{
     padding: 1.5em .5em .5em;
     border-radius: 5px;
+    background-color: #ffffff; /*f5f3ef*/
     box-shadow: 0 5px 10px #5e3613;
 
     
@@ -402,6 +366,16 @@ p{
     
 }
 
+.card-text-home{
+    color:#5e3613; 
+    
+}   
+
+.card-title{
+    color:#4d2808;
+    
+}
+
 .img-fluid{
     border-radius: 200px;
     width: 225px;
@@ -409,13 +383,18 @@ p{
     
 }
 
-
+/* Resources Section*/
+#resources{
+    padding: 3% 15% 3% 15%;
+    background-color: #e2dcc8b1;
+    text-align: center;
+}
 
 /* Footer Section*/
 #footer{
-    padding: 0% 5% 3% 5%;
-    text-align: center;
-    background-color: #e2dcc8b1;
+    padding: 0% 5% 1% 5%;
+    text-align: left;
+    background-color: #e2dcc8;
 }
 .vase-logo{
     width: 20px;
@@ -443,7 +422,7 @@ p{
     font-size: 18px;
 }
 .p-footer{
-    padding:15px;
+    padding:8px 8px 8px 0px;
     color: #4d2808;
 }
 .footer-page-links:hover{
