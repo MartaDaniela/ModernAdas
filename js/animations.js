@@ -1,16 +1,4 @@
 
-function update(e){
-    var x = e.clientX || e.touches[0].clientX
-    var y = e.clientY || e.touches[0].clientY
-  
-    document.getElementById("title-imgss").style.setProperty('--cursorX', x + 'px')
-    document.getElementById("title-imgss").style.setProperty('--cursorY', y + 'px')
-  }
-  
-    
-  document.getElementById("title").addEventListener('mousemove',update)
-  document.getElementById("title").addEventListener('touchmove',update)
-
 /*
 function cursorChange(id){
   if(document.getElementById(id)!= "title"){
@@ -73,3 +61,5 @@ function setCursorByID(id,cursorStyle) {
      if (elem.style) elem.style.cursor=cursorStyle;
     }
    }
+
+  
