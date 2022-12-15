@@ -1,3 +1,6 @@
+
+
+
 .color-change1{
     background-color: #b89677;
 }
@@ -43,7 +46,7 @@
 .larger-font{
     font-size: 50px;
     color:#4d2808;
-    text-align: left;
+    text-align: center;
 }
 .large-font{
     font-size: 40px;
@@ -66,15 +69,6 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }  
-/*
-.title-image{
-    background-image: url("file:///Users/danielaacosta/Desktop/GWC/images/hero-section-img.png");
-    background-size: "100% 80%";;
-    background-repeat: "no-repeat";
-    background-position: "center 100%";
-   /* background-attachment: fixed;
-}
-*/
 
 
 #title-stories-page{
@@ -111,6 +105,13 @@ h1{
     padding: 0  0 10px 0;
 }
 
+h5{
+    color: #4d2808;
+    font-family: 'br_firmaregular';
+    font-size: 36px;
+    font-weight: bold;
+    padding: 0  0 10px 0;
+}
 h2{
     color: #4d2808;
     font-family: 'br_firmaregular';
@@ -144,7 +145,7 @@ p{
 #navigation{
     text-align: center;
     background-color: #e2dcc8b1; 
-    padding: 6% 5% 0% 5%;
+    padding: 3% 15% 0% 15%;
 }
 .navbar .navbar-nav .nav-link {
     color: #4d2808;
@@ -162,9 +163,7 @@ p{
     border-radius: 5px;
 }
 
-.navbar{
-    position: relative; top: -40px;
-}
+
 .navbar-toggler{
     background-color:#4d2808;
 
@@ -262,28 +261,6 @@ p{
     box-shadow: 0 5px 10px #5e3613;
 }
 
-/* Title Features 
-
-
-.tile{ 
-    position: relative; top: 100px;
-    padding: 0 10px 0px 10px;
-    border-radius: 30px;
-    transform: rotate(45deg);
-    position:absolute;
-    z-index:0;
-    width: 40%;
-    position: relative; left: 20px;
-   
-    
-}
-
-.img-center{
-    text-align: center;
-}
-*/
-
-
 /* Projects Section */
  #projects{
     /* padding: 100px; to take up more of screen*/
@@ -297,23 +274,10 @@ p{
 
 .ada-img{
     border-radius: 50%;
-    width: 60%;
+    width: 50%;
     height: 100%;
 }
 
-
-
-/* extras 
-.card-header{
-    background-color:#FFF5EF;
-}
-.card-body{
-    background-color: #FFF5EF;
-}
-.card-img-top{
-    background-color: #FFF5EF;
-}
-*/
 
 .btn{
     border-radius:5px;
@@ -341,7 +305,7 @@ p{
 #story-title{
     padding: 3% 15% 3% 15%;
     text-align: center;
-    background-color:#e2dcc8;
+    background-color:#e2dcc8b1;
 }
 #story-cards{
     padding: 3% 15% 7% 15%;
@@ -353,7 +317,7 @@ p{
     padding: 1.5em .5em .5em;
     border-radius: 5px;
     background-color: #ffffff; /*f5f3ef*/
-    box-shadow: 0 5px 10px #5e3613;
+    /*box-shadow: 0 5px 10px #5e3613;*/
 
     
 }
@@ -387,12 +351,12 @@ p{
 #resources{
     padding: 3% 15% 3% 15%;
     background-color: #e2dcc8b1;
-    text-align: center;
+    text-align: left;
 }
 
 /* Footer Section*/
 #footer{
-    padding: 0% 5% 1% 5%;
+    padding: 0% 15% 1% 15%;
     text-align: left;
     background-color: #e2dcc8;
 }
@@ -441,29 +405,18 @@ p{
 }
 
 
-@keyframes shake {
-    0% { transform: translate(1px, 1px) rotate(0deg); }
-    10% { transform: translate(-1px, -2px) rotate(-1deg); }
-    20% { transform: translate(-3px, 0px) rotate(1deg); }
-    30% { transform: translate(3px, 2px) rotate(0deg); }
-    40% { transform: translate(1px, -1px) rotate(1deg); }
-    50% { transform: translate(-1px, 2px) rotate(-1deg); }
-    60% { transform: translate(-3px, 1px) rotate(0deg); }
-    70% { transform: translate(3px, 1px) rotate(-1deg); }
-    80% { transform: translate(-1px, -1px) rotate(1deg); }
-    90% { transform: translate(1px, 2px) rotate(0deg); }
-    100% { transform: translate(1px, -2px) rotate(-1deg); }
-}
-
-
 
  /*Media Query Section -convention is to have all the media queries at the bottom of the page */
 
  @media (max-width: 1028px){  /* Media Queries allow for webpage to have different looks based on certain conditions */
 
-    #title{
+    body{
         text-align: center;
     }
+    #projects{
+        text-align: center;
+    }
+    
 }
 
 
@@ -471,6 +424,16 @@ p{
     .card{
         text-align: center;
     }
+    .larger-font{
+        text-align: center;
+    }
+    #title{
+        padding: 0% 5% 15% 5%;
+    }
+    #navigation{
+        padding: 3% 5% 0% 5%;
+    }
+
 }
 
 
