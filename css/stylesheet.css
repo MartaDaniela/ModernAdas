@@ -34,7 +34,10 @@
 
 /*  general site styles*/
 
-
+.hero{
+    width: 100%;
+    height: 90%;
+}
 #title{
     text-align: center;
     padding: 4% 15% 7% 15%;
@@ -410,6 +413,15 @@ p{
 
 
  /*Media Query Section */
+ @media (max-width: 1000px){  
+    .hero{
+        width: 100%;
+        height: 100%;
+    }
+
+}
+
+
 
 /* changes layout if screen is smaller than 600px */
 @media (max-width: 600px){  
