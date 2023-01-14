@@ -301,7 +301,7 @@ li.nav-item{
 #story-cards{
     padding: 3% 15% 3% 15%;
     text-align: center;
-    background-color:#e2dcc8b1;
+    background-color:#e2dcc8;
 
 }
 
@@ -381,7 +381,7 @@ a {
 /* Resources Section*/
 #resources{
     padding: 3% 15% 3% 15%;
-    background-color: #e2dcc8b1;
+    background-color: #e2dcc8;
     text-align: left;
 }
 
