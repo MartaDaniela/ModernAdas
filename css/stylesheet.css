@@ -9,6 +9,8 @@
 
 html {
     scroll-behavior: smooth;
+    background-color: #e2dcc8b1;
+    
 } 
   
 
@@ -151,6 +153,7 @@ p{
     text-align: center;
     background-color: #e2dcc8b1; 
     padding: 3% 7% 0% 7%;
+    
 }
 .navbar .navbar-nav .nav-link {
     color: #4d2808;
