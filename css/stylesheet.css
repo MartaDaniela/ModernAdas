@@ -1,27 +1,3 @@
-
-.color-change1{
-    background-color: #b89677;
-}
-.title-text{
-    text-align: center;
-    
-}
-.title-text-link:hover{
-    text-decoration: none;
-}
-.center{
-    text-align: center;
-}
-.right{
-    text-align: right;
-}
-.left{
-    text-align: left;
-}
-.extra-space{
-    padding: 0 0 100px 0;
-}
-
 @font-face {
     font-family: 'br_firmaregular';
     src: url('br_firma_regular-webfont.woff2') format('woff2'),
@@ -31,71 +7,13 @@
 
 }
 
+html {
+    scroll-behavior: smooth;
+} 
+  
 
-/*  general site styles*/
+/* Fonts */
 
-.hero{
-    width: 100%;
-    height: 90%;
-}
-#title{
-    text-align: center;
-    padding: 4% 15% 7% 15%;
-    background-color: #e2dcc8b1;
-
-}
-.larger-font{
-    font-size: 50px;
-    color:#4d2808;
-    text-align: center;
-}
-.large-font{
-    font-size: 40px;
-    color:#4d2808;
-    text-align: center;
-}
-.large-font-left{
-    font-size: 40px;
-    color:#4d2808;
-    text-align: left;
-}
-
-.container {
-    position: relative;
-    text-align: center;
-  }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}  
-
-
-#title-stories-page{
-    text-align: center;
-    background-color: #e2dcc8b1; 
-}
-
-/* controls navbar padding/spreading out */
-.container-fluid{
-    padding: 3% 7%;
-}
-.moveUp{
-    position: relative; top: -400px;
-}
-.engraved{
-    background-color: #5e3613;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-shadow: #e2dcc8b1 4px 6px 3px;
-}
-
-.nav-brand:hover{
-    text-decoration: none;
-}
 h1{
     font-family: 'br_firmaregular';
     font-weight: bold;
@@ -142,6 +60,95 @@ p{
     color: #5e3613;;
 }
 
+/*  general site styles*/
+
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.left{
+    text-align: left;
+}
+.extra-space{
+    padding: 0 0 100px 0;
+}
+
+.larger-font{
+    font-size: 50px;
+    color:#4d2808;
+    text-align: center;
+}
+.large-font{
+    font-size: 40px;
+    color:#4d2808;
+    text-align: center;
+}
+.large-font-left{
+    font-size: 40px;
+    color:#4d2808;
+    text-align: left;
+}
+
+.moveUp{
+    position: relative; top: -400px;
+}
+.engraved{
+    background-color: #5e3613;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-shadow: #e2dcc8b1 4px 6px 3px;
+}
+
+
+
+/* Title Section */ 
+#title{
+    text-align: center;
+    padding: 4% 15% 7% 15%;
+    background-color: #e2dcc8b1;
+
+}
+
+.title-text{
+    text-align: center;
+    
+}
+.title-text-link:hover{
+    text-decoration: none;
+}
+
+
+/* controls navbar padding/spreading out */
+.container-fluid{
+    padding: 3% 7%;
+}
+
+
+.nav-brand:hover{
+    text-decoration: none;
+}
+
+.hero{
+    width: 100%;
+    height: 90%;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+  }
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}  
+
+
 /* Navigation Bar */
 #navigation{
     text-align: center;
@@ -165,7 +172,6 @@ p{
     border-radius: 5px;
 }
 
-
 .navbar-toggler{
     background-color:#4d2808;
     color: #e2dcc8b1;
@@ -178,7 +184,6 @@ p{
     position: relative; top: 20px;
     position: relative; left: 20px;
 }
-
 
 
 
@@ -195,34 +200,6 @@ p{
     -webkit-animation-timing-function: ease-in-out;
     -ms-animation-timing-function: ease-in-out;
 }
-  
-@-webkit-keyframes wiggle {
-0% {-webkit-transform: rotate(10deg);}
-25% {-webkit-transform: rotate(-10deg);}
-50% {-webkit-transform: rotate(20deg);}
-75% {-webkit-transform: rotate(-5deg);}
-100% {-webkit-transform: rotate(0deg);}
-}
-
-@-ms-keyframes wiggle {
-0% {-ms-transform: rotate(1deg);}
-25% {-ms-transform: rotate(-1deg);}
-50% {-ms-transform: rotate(1.5deg);}
-75% {-ms-transform: rotate(-5deg);}
-100% {-ms-transform: rotate(0deg);}
-}
-
-@keyframes wiggle {
-0% {transform: rotate(10deg);}
-25% {transform: rotate(-10deg);}
-50% {transform: rotate(20deg);}
-75% {transform: rotate(-5deg);}
-100% {transform: rotate(0deg);}
-}
-  
-
-
-
 
 
 /* Download Buttons */
@@ -248,11 +225,11 @@ p{
 }
 
 .icons ul li{
-    height: 50px;
-    width: 50px;
+    height: 40px;
+    width: 40px;
     list-style-type: none;
-    padding-top: 12px;
-    margin-top: 5px;
+    padding-top: 8px;
+    margin-top:6px;
     border-radius: 2.5px;
     color:#e2dcc8;
     box-shadow: 0 5px 10px rgba(0,0,0,.2);
@@ -299,7 +276,6 @@ p{
 }
 
 
-
 #Ada{
     background-color: #e2dcc8;
     padding: 7% 15%;
@@ -307,50 +283,90 @@ p{
     cursor: default;
 }
 
+
+#title-stories-page{
+    text-align: center;
+    background-color: #e2dcc8b1; 
+}
+
 /* Story Cards Section*/
+
 #story-title{
     padding: 3% 15% 3% 15%;
     text-align: center;
     background-color:#e2dcc8b1;
 }
 #story-cards{
-    padding: 3% 15% 7% 15%;
-    text-align: left;
+    padding: 3% 15% 3% 15%;
+    text-align: center;
     background-color:#e2dcc8b1;
 
 }
+  
+
 .card{
     padding: 1.5em .5em .5em;
     border-radius: 5px;
     background-color: #ffffff; /*f5f3ef*/
     /*box-shadow: 0 5px 10px #5e3613;*/
-
-    
-}
-.card-text-story{
-    text-align: left;
-    
-}
-.card-text-story-center{ 
-    text-align: center;
+    border: 1px solid rgba(0,0,0,.125);
     
 }
 
-.card-text-home{
-    color:#5e3613; 
-    
-}   
+.card-header{
+    background-color: #5e3613 ;
+    border-bottom: 0px solid rgba(0,0,0,.125);
+    color: white;
+}
+
 
 .card-title{
     color:#4d2808;
     
 }
+.card-img-top{
+    border-radius: 5px;
+}
 
-.img-fluid{
-    border-radius: 200px;
-    width: 225px;
-    height: 225px;
+.scroll {
+    max-height: 485px;
+    overflow-y: auto;
+}
+
+.content {
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: #ffffff;
+  }
+
+
+.card-text{
+    text-align: left;
+    padding: 0px 20px;
+}
+
+.active {
+    background-color: white;
+  }
+
+  .nav-pills .nav-link.active{
+    background-color: #ffffff;
+    color:#5e3613;
+}
+
+.nav-tabs .nav-link {
+    border: 0px solid transparent;
+    border-top-left-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
     
+}
+  
+a {
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+
 }
 
 /* Resources Section*/
@@ -397,7 +413,7 @@ p{
 }
 .footer-page-links:hover{
     background-color:#e2dcc8b1;
-    color: #4d2808;
+    color: #ffffff;
     border-radius: 5px;
     text-decoration: none;
 }
