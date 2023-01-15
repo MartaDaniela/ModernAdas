@@ -10,8 +10,19 @@
 html {
     scroll-behavior: smooth;
     background-color: #e2dcc8b1;
+    width: 100%;  
+    margin: 0;
+   
+   
     
 } 
+
+body{
+    width: 100%;
+    margin: 0;
+    
+   
+}
   
 
 /* Fonts */
@@ -75,14 +86,16 @@ p{
 }
 
 .larger-font{
-    font-size: 50px;
+    font-size: 45px;
     color:#4d2808;
     text-align: center;
+    padding:0px 0px;
 }
 .large-font{
     font-size: 40px;
     color:#4d2808;
     text-align: center;
+    padding: 20px 0px 30px 0px;
 }
 .large-font-left{
     font-size: 40px;
@@ -99,17 +112,29 @@ p{
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-    text-shadow: #e2dcc8b1 4px 6px 3px;
+    text-shadow: #e2dcc8b1 2px 6px 4px;
 }
 
+
+#hero-section{
+    text-align: center;
+    padding: 4% 0% 8% 0%;
+    background-color: #e2dcc8b1;
+    width: 100%;  
+}
 
 
 /* Title Section */ 
 #title{
     text-align: center;
-    padding: 4% 15% 7% 15%;
+    padding: 4% 12% 8% 12%;
     background-color: #e2dcc8b1;
+    width: 100%;  
 
+}
+
+.side-padding{
+    padding: 0 20px 0 20px;
 }
 
 .title-text{
@@ -131,9 +156,13 @@ p{
     text-decoration: none;
 }
 
+.col-lg-6{
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
 .hero{
     width: 100%;
-    height: 90%;
 }
 
 .container {
@@ -153,6 +182,7 @@ p{
     text-align: center;
     background-color: #e2dcc8b1; 
     padding: 3% 7% 0% 7%;
+    width:100%;
     
 }
 .navbar .navbar-nav .nav-link {
@@ -252,9 +282,10 @@ li.nav-item{
 /* Projects Section */
  #projects{
     /* padding: 100px; to take up more of screen*/
-    padding: 7% 15%;
+    padding: 3% 15% 3% 15%;
     text-align: justify;
-    background-color: #e2dcc8b1; 
+    background-color: #e2dcc8b1;
+    width:100%; 
  }
  .projects-column{
     padding: 3% 2%;
@@ -283,28 +314,27 @@ li.nav-item{
 
 #Ada{
     background-color: #e2dcc8;
-    padding: 7% 15%;
+    padding: 3% 15% 3% 15%;
     text-align: justify;
-    cursor: default;
+    width: 100%;  
+    
+   
 }
 
 
 #title-stories-page{
     text-align: center;
     background-color: #e2dcc8b1; 
+    width: 100%;  
 }
 
 /* Story Cards Section*/
 
-#story-title{
-    padding: 3% 15% 3% 15%;
-    text-align: center;
-    background-color:#e2dcc8b1;
-}
 #story-cards{
     padding: 3% 15% 3% 15%;
     text-align: center;
     background-color:#e2dcc8;
+    width: 100%;  
 
 }
 
@@ -386,13 +416,16 @@ a {
     padding: 3% 15% 3% 15%;
     background-color: #e2dcc8;
     text-align: left;
+    width: 100%;  
 }
 
 /* Footer Section*/
 #footer{
     padding: 0% 15% 3% 15%;
+    
     text-align: left;
     background-color: #e2dcc8b1;
+    width: 100%;  
 }
 .vase-logo{
     width: 20px;
@@ -443,16 +476,6 @@ a {
 
 
 
- /*Media Query Section */
- @media (max-width: 1000px){  
-    .hero{
-        width: 100%;
-        height: 100%;
-    }
-
-}
-
-
 
 /* changes layout if screen is smaller than 600px */
 @media (max-width: 600px){  
@@ -487,8 +510,6 @@ a {
 
 
 
-
-
 @media(max-width: 992px){
     #Ada{
         text-align: center;
@@ -500,6 +521,97 @@ a {
         text-align: center;
     }
 }
+
+
+
+
+
+
+
+@media (min-width: 1392px){  
+    .hero-left{
+        position: relative; margin-top: 20px;
+    }
+    .larger-font{
+        font-size: 45px;
+        color:#4d2808;
+        text-align: center;
+        padding:0px 0px;
+    }
+
+
+}
+
+
+@media (max-width: 1391px){  
+    .hero-left{
+        position: relative; margin-top: 0px;
+    }
+    .larger-font{
+        font-size: 45px;
+        color:#4d2808;
+        text-align: center;
+        padding:0px 0px;
+    }
+
+
+}
+
+@media (max-width: 1237px){  
+    .hero-left{
+        position: relative; margin-top: 20px;
+    }
+    .larger-font{
+        font-size: 40px;
+        color:#4d2808;
+        text-align: center;
+        padding:0px 0px;
+    }
+
+
+}
+
+
+@media (max-width: 1215px){  
+    .hero-left{
+        position: relative; margin-top: 10px;
+    }
+    .larger-font{
+        font-size: 36px;
+        color:#4d2808;
+        text-align: center;
+        padding:0px 0px;
+    }
+
+}
+
+@media (max-width: 1101px){  
+    .hero-left{
+        position: relative; margin-top: -5px;
+    }
+    .larger-font{
+        font-size: 36px;
+        color:#4d2808;
+        text-align: center;
+        padding:0px 0px;
+    }
+
+}
+
+@media (max-width: 1008px){  
+    .hero-left{
+        position: relative; margin-top: -25px;
+    }
+    .larger-font{
+        font-size: 36px;
+        color:#4d2808;
+        text-align: center;
+        padding:0px 0px;
+    }
+
+}
+
+
 
 
 
