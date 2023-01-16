@@ -112,7 +112,11 @@ p{
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-    text-shadow: #e2dcc8b1 2px 6px 4px;
+    text-shadow: #e2dcc8b1 2px 6px 5px;
+}
+.engraved:hover{
+    background-color: #4d2808;
+    text-shadow: #4d2808 0px 0px 0px;
 }
 
 
