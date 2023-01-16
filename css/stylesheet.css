@@ -547,6 +547,12 @@ a {
         -moz-background-clip: text;
         background-clip: text;
         color: transparent;
+        text-shadow: #e2dcc887 2px 0px 4px;
+        font-size: 36px;
+    }
+    .engraved:hover{
+        background-color: #4d2808;
+        text-shadow: #4d2808 0px 0px 0px;
         font-size: 36px;
     }
     .navbar-brand{
