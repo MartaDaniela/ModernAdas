@@ -112,7 +112,7 @@ p{
     -moz-background-clip: text;
     background-clip: text;
     color: transparent;
-    text-shadow: #e2dcc87a 2px 6px 4px;
+    text-shadow: #e2dcc8b1 2px 6px 4px;
 }
 
 
@@ -542,7 +542,7 @@ a {
         padding: 2% 8% 0% 8%;
     }
     .engraved{
-        background-color: #5e3613;
+        background-color: #4d2808;
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
