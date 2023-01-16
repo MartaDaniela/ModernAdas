@@ -460,9 +460,6 @@ a {
     color:#4d2808;
     font-size: 20px;
 }
-.extra-space{
-    padding: 0 0px 0 0px;
-}
 .footer-page-links{
     font-family: 'br_firmaregular';
     color:#4d2808;
@@ -514,12 +511,6 @@ a {
 
 }
 
-@media (max-width: 400px){  
-    .extra-space{
-        padding: 0 20px 0 20px;
-    }
-
-}
 
 
 
