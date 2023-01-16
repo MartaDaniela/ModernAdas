@@ -551,7 +551,7 @@ a {
         -moz-background-clip: text;
         background-clip: text;
         color: transparent;
-        text-shadow: #e2dcc887 2px 0px 4px;
+        text-shadow: #e2dcc887 3px 1px 4px;
         font-size: 36px;
     }
     .engraved:hover{
