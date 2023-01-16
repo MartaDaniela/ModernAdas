@@ -204,7 +204,7 @@ p{
     border-radius: 5px;
 }
 .navbar-toggler{
-   
+   padding:0;
 }
 .navbar-toggler-icon{
     color: #4d2808;
@@ -560,7 +560,7 @@ a {
         font-size: 36px;
     }
     .navbar-brand{
-        position: relative; margin-top: 20px;
+        position: relative; margin-top: 12px;
     }
 
 }
