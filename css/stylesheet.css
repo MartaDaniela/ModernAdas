@@ -547,7 +547,6 @@ a {
         -moz-background-clip: text;
         background-clip: text;
         color: transparent;
-        text-shadow: #e2dcc8b1 2px 6px 4px;
         font-size: 36px;
     }
     .navbar-brand{
