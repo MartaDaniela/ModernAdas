@@ -127,7 +127,7 @@ p{
 /* Title Section */ 
 #title{
     text-align: center;
-    padding: 4% 12% 10% 12%;
+    padding: 3% 12% 10% 12%;
     background-color: #e2dcc8b1;
     width: 100%;  
 
@@ -262,9 +262,9 @@ p{
 
 /* Floating contact/social Icons */
 .icons{
-    top: 25%;
+    top: 30%;
     /*right: 0px*/
-    right: 10px;
+    right: 5px;
     transform: translateY(-50%);
     position: fixed;
     z-index: 100;
