@@ -204,10 +204,10 @@ p{
     border-radius: 5px;
 }
 .navbar-toggler{
-    background-color:#4d2808;
+   
 }
 .navbar-toggler-icon{
-    color: #e2dcc8;
+    color: #4d2808;
    padding: 5px 0 0 0;
 }
 
@@ -280,17 +280,19 @@ p{
     padding-top: 8px;
     margin-top:6px;
     border-radius: 2.5px;
-    color:#e2dcc8;
-    box-shadow: 0 5px 10px rgba(0,0,0,.2);
-    background-color: #4d2808;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+    /*color:#e2dcc8;*/
+    color: #4d2808;
+    /*box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    /*background-color: #4d2808; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); */
 
 }
 
 .icons ul li:hover{
-    color:#e2dcc8;
-   
-    box-shadow: 0 5px 10px #5e3613;
+    
+    color: #ffffff;
+    /*box-shadow: 0 5px 10px #5e3613;
+    color:#e2dcc8;*/
 }
 
 /* Projects Section */
@@ -508,6 +510,7 @@ a {
     }
 
 
+
 }
 
 @media (max-width: 400px){  
@@ -543,6 +546,22 @@ a {
         font-family: 'br_firmaregular';
     }
     */
+    #navigation{
+        padding: 2% 10% 0% 10%;
+    }
+    .engraved{
+        background-color: #5e3613;
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        text-shadow: #e2dcc8b1 2px 6px 4px;
+        font-size: 36px;
+    }
+    .navbar-brand{
+        position: relative; margin-top: 20px;
+    }
+
 }
 
 
