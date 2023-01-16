@@ -120,16 +120,9 @@ p{
 }
 
 
+
+/* Hero Section */ 
 #hero-section{
-    text-align: center;
-    padding: 4% 0% 8% 0%;
-    background-color: #e2dcc8b1;
-    width: 100%;  
-}
-
-
-/* Title Section */ 
-#title{
     text-align: center;
     padding: 3% 12% 10% 12%;
     background-color: #e2dcc8b1;
@@ -141,13 +134,7 @@ p{
     padding: 0 20px 0 20px;
 }
 
-.title-text{
-    text-align: center;
-    
-}
-.title-text-link:hover{
-    text-decoration: none;
-}
+
 
 
 /* controls navbar padding/spreading out */
@@ -270,7 +257,7 @@ p{
 
 /* Floating contact/social Icons */
 .icons{
-    top: 30%;
+    top: 25%;
     /*right: 0px*/
     right: 5px;
     transform: translateY(-50%);
@@ -516,6 +503,9 @@ a {
     }
     #footer{
         padding: 0% 10% 5% 10%;
+    }
+    .icons{
+        top: 35%;
     }
 
 
