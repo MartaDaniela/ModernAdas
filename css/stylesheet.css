@@ -510,7 +510,9 @@ a {
     h1{
         font-size: 40px;
     }
-
+    #footer{
+        padding: 0% 10% 5% 10%;
+    }
 
 
 }
