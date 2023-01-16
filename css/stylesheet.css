@@ -263,7 +263,8 @@ p{
 /* Floating contact/social Icons */
 .icons{
     top: 25%;
-    right: 0px;
+    /*right: 0px*/
+    right: 10px;
     transform: translateY(-50%);
     position: fixed;
     z-index: 100;
