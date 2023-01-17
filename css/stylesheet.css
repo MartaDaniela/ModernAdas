@@ -507,6 +507,9 @@ a {
     .icons{
         top: 35%;
     }
+    .nav-link2{
+        padding: 5px 10px;
+    }
 
 
 }
